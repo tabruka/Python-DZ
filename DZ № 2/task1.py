@@ -5,5 +5,5 @@ numberN = int(input('Введите число: '))
 list = [1]
 for i in range (1, numberN):
     list.append ((i+1) * list [i-1])
-print(f'Список факториалов числа {numberN}: ')
+print(f'Список факториалов чисел от 1 до {numberN}: ')
 print(list)
